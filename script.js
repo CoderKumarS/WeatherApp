@@ -11,9 +11,7 @@ const getWeather = async (city) => {
     } else if (city == "") {
         document.getElementById("citys").innerHTML = "Enter the City Name";
         return;
-
     }
-    console.log(data);
     document.getElementById("citys").innerHTML = data.name;
     document.getElementById("temp").innerHTML = Math.floor(data.main.temp) + `<sup>°C</sup>`;
     document.getElementById("mitemp").innerHTML = data.main.temp_min + `<sup>°C</sup> / `;
