@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Revolution&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: rgb(10, 235, 180);
+    background: linear-gradient(148deg, rgba(10, 235, 180, 1) 0%, rgba(87, 90, 139, 1) 62%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 35rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em;
+    background: rgba(0, 255, 233, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.box #head {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+
+}
+
+.box .input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box .input input {
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem 0.5rem;
+    margin: 5px;
+    background-color: #e6f5fb;
+    color: rgb(54, 91, 154);
+}
+
+.box .input input:hover {
+    outline: 1px solid rgb(59, 221, 233);
+}
+
+.box .input button {
+    background-color: #e6f5fb;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: none;
+    color: black;
+}
+
+.box #tem span {
+    font-size: 7rem;
+}
+
+.box #tem span sup {
+    font-size: 2.5rem;
+}
+.box .city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.box .city #det{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}
+
+.box .city .loc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.box .city i {
+    display: none;
+}
+.box #citys {
+    font-size: 1.2rem;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.box #discription {
+    font-size: 2rem;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.box #discription i {
+    padding-right: 1rem;
+}
+
+.box .input button:hover {
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.dis {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dis img {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    filter: invert(100%) sepia(91%) saturate(13%) hue-rotate(256deg) brightness(105%) contrast(103%);
+}
+
+.extra {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.extra .details {
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(0, 255, 224, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 255, 224, 0.3);
+}
+
+.extra .details i {
+    font-size: 1.8rem;
+    padding-right: 1rem;
+}
+
+#ic {
+    display: none;
+}
